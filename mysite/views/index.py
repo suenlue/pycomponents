@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-      'msg': "hallo welt"
+      'msg': "index page"
       }
     return render(request, 'test-component/index.html', context)
